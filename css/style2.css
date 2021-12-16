@@ -84,7 +84,7 @@ nav img {
 #sun-icon {
     width: 40px;
 }
-#mars-icon {
+#plant-icon {
     width: 40px;
 }
 .toggle {
@@ -148,9 +148,9 @@ nav img {
     --quintary-color:#ccc5b9;
 }
 .dark-theme{
-    --primary-color: rgb(20, 19, 19);
-    --secondary-color: darkorange;
-    --tertiary-color: darkorange;
+    --primary-color: rgb(48, 240, 82);
+    --secondary-color: white;
+    --tertiary-color: rgb(48, 240, 82);
     --quartery-color: white;
     --quintary-color: black;
 }
