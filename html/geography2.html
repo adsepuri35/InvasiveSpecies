@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>The Mars Mission</title>
+        <link rel="stylesheet" href="../css/style2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://css.gg/css?=|facebook|instagram|twitter|google" rel="stylesheet">
+    </head> 
+    <body>
+        <section class="geo-header">
+            
+            <!--transparent header + light/mars mode-->
+            <nav>
+                <a href="../html/main2.html"><img src="../img/mars-real-logo.gif"></a>
+                <a href="../html/main2.html"><img src="../img/mars-logo-text2.png" id="logo-text"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="../html/tourism2.html">TOURISM</a></li>
+                        <li><a href="../html/history2.html">HISTORY</a></li>
+                        <li><a href="../html/geography2.html">GEOGRAPHY</a></li>
+                        <li><a href="../html/travel.html">TRAVEL PACKAGES</a></li>
+                    </ul>
+                </div>
+                <img src="../img/sun.png" id="sun-icon">
+            
+                <input class="toggle" type="checkbox" id="mode-slider"/>
+            
+                <img src="../img/clickmars.png" id="mars-icon">
+            </nav>
+    
+            <!--Opening page title-->
+            <div class="text-box">
+                <h1>Martian Geography</h1>
+            </div>
+
+            <!--Bobbing Arrow Animation-->
+            <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+          
+            </div>
+
+        </section>
+        
+        <!--Territories-->
+        <section class="settle">
+            <h1>Territories</h1>
+            <p>Mars is home to 5 major territories as well as other smaller settlements. There are many impact craters from asteroids, lakes, and immense mountains. The views are just great!</p>
+
+            <!--Image of map + caption-->
+            <img src="../img/officialmap.png" class="geomap" alt="map of martian settlements/oceans">
+            <div class="mapCaption">Map of Mars' territories and geological features</div>
+
+            <div class="settle-des">
+                <ul>
+                    <li> <h2>GON</h2> The largest territory in Mars by landmass and 2nd-most in population, Gon is home to major landmarks such as Olympus Mons. It's capital city, Killua, is known for its amazing skyline and unique food. These key features make it the #1 tourist destination on Mars.</li>
+                    <p></p><p></p>
+                    <li> <h2>MARLEY</h2> With the highest population and the 2nd largest land-area, Marley is a must visit! One of its territories, Paradis Island, is a popular vacation spot with titanic skyscrapers and sandstorm walls. Marley's capital city of Reiner is home to the best space exploration industry in the solar system! </li>
+                    <p></p><p></p>
+                    <li> <h2>GENOS</h2> Genos is a territory known for its underwater settlements. Since it is connected to both Luffy Lake and Vastitas Borealis, Genos has an aquatic industry with immense potential. Saitama, Genos' capital city, is half above-ground and half underwater!</li>
+                    <p></p><p></p>
+                    <li> <h2>AIZEN</h2> Aizen is the most recently established of the five territories and it is already the leader in the farming industry. Aizen uses specialized, <br>eco-friendly farming techniques to help it become the main producer of martian food. Its capital city of Ichigo is incredibly green, a huge accomplishment for a city on the red planet.</li>
+                    <p></p><p></p>
+                    <li> <h2>ELRIC</h2> Elric was the first established territory and has the most developed mining industry. Using advanced technology, many companies are able to mine valuable metals such as magnesium, titanium, tungsten, chromium, and europium. </li>
+                </ul>
+            </div>
+
+        </section>
+
+        <!--Bodies of Water-->
+        <section class="settle">
+            <h1>Bodies of Water</h1>
+
+            <!--Image of terraformed mars-->
+            <img src="../img/Mars_water.jpg" class="watmap" alt="map of martian settlements/oceans">
+            <div class="mapCaption">Satellite view of "The Great Ocean" </div>
+
+            <div class="settle-des">
+                <ul>
+                    <li> <h2>VASTITAS BOREALIS AKA "THE GREAT OCEAN"</h2> Ever notice the immense ocean that covers 2/5 of Mars? Well that's Vastitas Borealis, known as the "Great Ocean" for short. Aquatic life is slowly being introduced and sea transportation is as easy as ever. </li>
+                    <p></p><p></p>
+                    <li> <h2>LUFFY LAKE</h2> Formerly an impact crater, Luffy Lake is the largest lake on Mars. Since 25% of the lake belongs to Genos, there are<br> multiple underwater settlements.</li>
+                    <p></p><p></p>
+                </ul>
+            </div>
+
+
+        </section>
+
+        <!--Contacts + Email-->
+        <section class="footer">
+            <h4>Contact Us</h4>
+    
+            <div class="icons">
+            <a href="https://www.facebook.com/" target="_blank"><i class="gg-facebook"></i></a>
+            <p></p>
+            <a href="https://www.instagram.com/" target="_blank"><i class="gg-instagram"></i></a>
+            <p></p>
+            <a href="https://twitter.com/TheMarsSociety" target="_blank"><i class="gg-twitter"></i></a>
+            <p></p>
+            <a href="https://www.google.com/search?q=mars&rlz=1C1SQJL_enUS933US933&oq=mars+&aqs=chrome.0.69i59l4j0i67j69i61l3.1256j0j4&sourceid=chrome&ie=UTF-8" target="_blank"><i class="gg-google"></i></a>
+    
+            </div>
+    
+            <p>Any questions? Reach out to us @ <a href="mailto: marsmission@gmail.com" target="_blank" style="color: rgb(255, 72, 0)">marsmission@gmail.com</a> </p>
+        </section>
+
+        <script type="text/javascript" src="../js/code2.js"></script>
+
+        <!--JS for light/mars mode-->
+        <script>
+
+            var icon = document.getElementById("mode-slider");
+    
+            icon.onclick = function(){
+                document.body.classList.toggle("dark-theme");
+            }
+    
+        </script>
+    </body>
+</html>
