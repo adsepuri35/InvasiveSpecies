@@ -81,8 +81,8 @@ nav img {
 }
 
 /*Mars mode slider*/
-#sun-icon {
-    width: 40px;
+#fish-icon {
+    width: 50px;
 }
 #plant-icon {
     width: 40px;
@@ -131,26 +131,22 @@ nav img {
     transition: all cubic-bezier(0.3, 1.5, 0.7, 1) 0.3s;
   }
   
-  .toggle:checked {
-    background-color: darkorange;
-  }
-  
   .toggle:checked:before {
     left: 32px;
   }
 
 /* Mars mode color change */
 :root {
-    --primary-color: white;
-    --secondary-color: black;
-    --tertiary-color: white;
-    --quartery-color: darkorange;
-    --quintary-color:#ccc5b9;
+    --primary-color: rgb(14, 201, 27);
+    --secondary-color: white;
+    --tertiary-color: rgb(14, 201, 27);
+    --quartery-color: white;
+    --quintary-color: black;
 }
 .dark-theme{
-    --primary-color: rgb(48, 240, 82);
+    --primary-color: rgb(27, 167, 243);
     --secondary-color: white;
-    --tertiary-color: rgb(48, 240, 82);
+    --tertiary-color: rgb(27, 167, 243);
     --quartery-color: white;
     --quintary-color: black;
 }
