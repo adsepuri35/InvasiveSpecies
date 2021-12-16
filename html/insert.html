@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>The Mars Mission</title>
+        <link rel="stylesheet" href="../css/style2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://css.gg/css?=|facebook|instagram|twitter|google" rel="stylesheet">
+        
+    </head> 
+    <body>
+        <section class="insert-header">
+            
+            <!--transparent header + light/mars mode-->
+            <nav>
+                <a href="../html/main2.html" ><img src="../img/mars-real-logo.gif"></a>
+                <a href="../html/main2.html"><img src="../img/mars-logo-text2.png" id="logo-text"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="../html/tourism2.html">TOURISM</a></li>
+                        <li><a href="../html/history2.html">HISTORY</a></li>
+                        <li><a href="../html/geography2.html">GEOGRAPHY</a></li>
+                        <li><a href="../html/travel.html">TRAVEL PACKAGES</a></li>
+                        <li>
+                            <div class="dropdown">
+                            <p id="book-now">BOOK NOW</p>
+                            <div class="dropdown-content">
+                                <a href="insert.html">INSERT</a>
+                                <a href="form.html">SELECT</a>
+                                <a href="form.html">UPDATE</a>
+                                <a href="form.html">DELETE</a>
+                            </div>
+                        </div></li>
+                    </ul>
+                    
+                </div>
+                <img src="../img/sun.png" id="sun-icon">
+                
+                <input class="toggle" type="checkbox" id="mode-slider"/>
+                
+                <img src="../img/clickmars.png" id="mars-icon">
+            </nav>
+    
+            <!--Opening page title-->
+            <div class="text-box">
+                <h1>Sign Up!</h1>
+            </div>
+
+            <!--Bobbing Arrow Animation-->
+            <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div id="banner">
+                <canvas id="canvas"></canvas>
+            </div>
+        </section>
+             <!--Form to come to mars-->
+        <section class="form-container">
+            <form>
+                <h3>COME TO MARS!</h3>
+                <label for="email">What is your email address?</label>
+                <input type="text" placeholder="Email" name="email" id="email" required>
+                <label for="name">What is your full name?</label>
+                <input type="text" placeholder="Full Name" name="name" id="name" required>
+                <label for="duration">How long will you be staying on Mars?</label>
+                <select id="duration" name="duration">
+                    <option value="1-3m">1 to 3 months</option>
+                    <option value="3-12m">3 to 12 months</option>
+                    <option value="1-3y">1 to 3 years</option>
+                    <option value=">3y">Greater than 3 years</option>
+                </select>
+                <label for="package">What package are you interested in purchasing?</label>
+                <select id="package" name="package">
+                    <option value="basic">Basic</option>
+                    <option value="upgraded">Upgraded</option>
+                    <option value="deluxe">Deluxe</option>
+                </select>
+                <input id = "submit" type="submit" value="Submit">
+            </form>
+        </section>
+        <script type="text/javascript" src="../js/code2.js"></script>
+        <script type="module" src="../js/firebase.js"></script>
+        
+</body>
+</html>
