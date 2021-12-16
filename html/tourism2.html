@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>The Mars Mission</title>
+        <link rel="stylesheet" href="../css/style2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://css.gg/css?=|facebook|instagram|twitter|google" rel="stylesheet">
+        <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    </head> 
+    <body>
+        <section class="tourism-header">
+            <!-- Transparent nav bar + light/mars mode switch-->
+            <nav>
+                <a href="../html/main2.html" ><img src="../img/mars-real-logo.gif"></a>
+                <a href="../html/main2.html"><img src="../img/mars-logo-text2.png" id="logo-text"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="../html/tourism2.html">TOURISM</a></li>
+                        <li><a href="../html/history2.html">HISTORY</a></li>
+                        <li><a href="../html/geography2.html">GEOGRAPHY</a></li>
+                        <li><a href="../html/travel.html">TRAVEL PACKAGES</a></li>
+                    </ul>
+                    
+                </div>
+                <img src="../img/sun.png" id="sun-icon">
+                
+                <input class="toggle" type="checkbox" id="mode-slider"/>
+                
+                <img src="../img/clickmars.png" id="mars-icon">
+            </nav>
+            <!--Opening text for main page-->
+            <div class="text-box">
+                <h1>Tourism</h1>
+            </div>
+            <!--Bobbing arrow animation-->
+            <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!--Banner for stars on the main page (present here because it serves as a workaround to a modal bug)-->
+            <div id="banner">
+                <canvas id="canvas"></canvas>
+              </div>
+        </section>
+        <!--Information about food chains-->
+        <section class="food-chains">
+            <h1>Food Chains</h1>
+            <p>There are plenty of food options to satisfy your cravings on Mars! Click the pictures to learn more.</p>
+            <!--Carousel for food chain restaurants-->
+            <div class="container">
+                <input type="radio" name="slider" id="item-1">
+                <input type="radio" name="slider" id="item-2">
+                <input type="radio" name="slider" id="item-3">
+                <div class="cards">
+                    <label class="card" for="item-1" id="food-1">
+                    <img src="../img/paneer-carousel.PNG" alt="Pathy's Paneer Plates" class="modal-open" data-modal="modal1">
+                    </label>
+                    <label class="card" for="item-2" id="food-2">
+                    <img src="../img/guac-carousel.jpg" alt="Gaka's Guac" class="modal-open" data-modal="modal2">
+                    </label>
+                    <label class="card" for="item-3" id="food-3">
+                    <img src="../img/puri3-carousel.PNG" alt="Sepuri's Puris" class="modal-open" data-modal="modal3">
+                    </label>
+                </div>
+            </div>
+        </section>
+        <!--Information about attractions-->
+        <section class="attractions">
+            <h1>Attractions</h1>
+            <p>Mars does not disappoint when it comes to tourist attractions. There is a never-ending list of things to do <br> and the attractions listed below are only some of many! Click the pictures to learn more.</p>
+            <!--Carousel for attractions-->
+            <div class="container">
+                <input type="radio" name="slider" id="item-4">
+                <input type="radio" name="slider" id="item-5">
+                <input type="radio" name="slider" id="item-6">
+                <div class="cards">
+                    <label class="card" for="item-4" id="attractions-4">
+                    <img src="../img/mars-moons.jpg" alt="Mars Moons" class="modal-open" data-modal="modal4">
+                    </label>
+                    <label class="card" for="item-5" id="attractions-5">
+                    <img src="../img/olympus-mons-carousel.jpg" alt="Olympus Mons" class="modal-open" data-modal="modal5">
+                    </label>
+                    <label class="card" for="item-6" id="attractions-6">
+                    <img src="../img/riding-red2.PNG" alt="Riding Red" class="modal-open" data-modal="modal6">
+                    </label>
+                </div>
+            </div>
+        </section>
+        <!--Modal info for modal 1-->
+        <div class="modal" id="modal1">
+            <div class="modal-content">
+                <div class="modal-header">
+                    Pathy's Paneer Plates
+                </div>
+                <div class="modal-body">
+                    Enjoy the delicacy of North India's most famous cheese — Paneer. Pathy's Paneer Plates serves a plethora of dishes based around Paneer. Some dishes include Paneer Tikka Masala, Chilli Paneer, Paneer Pakoras, and even Paneer Pizza! The best part is that they're open 24/7 so you can come in and grab a bite anytime you want!
+                </div>
+                <div class="modal-close material-icons">close</div>
+            </div>
+        </div>
+        <!--Modal info for modal 2-->
+        <div class="modal" id="modal2">
+            <div class="modal-content">
+                <div class="modal-header">
+                    Gaka's Guac
+                </div>
+                <div class="modal-body">
+                    At Gaka's Guac, the California feel is real! Avacados are sourced fresh from Cali and boy, do they taste good! You can enjoy your guac in several forms including guac bowls, guac in a cone, and more. Trust me, you don't want to miss out on the guac in a cone — some would call it <em>"heaven"</em>.
+                </div>
+                <div class="modal-close material-icons">close</div>
+            </div>
+        </div>
+        <!--Modal info for modal 3-->
+        <div class="modal" id="modal3">
+            <div class="modal-content">
+                <div class="modal-header">
+                    Sepuri's Puris
+                </div>
+                <div class="modal-body">
+                    Sepuri's Puris is a <strong>MUST</strong> visit. It's basically synonymous with <em>delicioso</em>. Indulge in the puffy, bready delight of puri. You can eat it with literally anything! At Sepuri's Puris, puris are used for tacos, wraps, pani puris, and of course for the traditial complement to Indian curries. Make sure to check this place out!
+                </div>
+                <div class="modal-close material-icons">close</div>
+            </div>
+        </div>
+        <!--Modal info for modal 4-->
+        <div class="modal" id="modal4">
+            <div class="modal-content">
+                <div class="modal-header">
+                    To the Moons!
+                </div>
+                <div class="modal-body">
+                    Mars has two moons which are Phobos and Deimos. These moons are made out of C-type rock which is a material similar to some asteroids! These moons are sure to give you a thrill; after all, they are named after the sons of Greek god Ares.
+                </div>
+                <div class="modal-close material-icons">close</div>
+            </div>
+        </div>
+        <!--Modal info for modal 5-->
+        <div class="modal" id="modal5">
+            <div class="modal-content">
+                <div class="modal-header">
+                    Olympus Mons
+                </div>
+                <div class="modal-body">
+                    The Olympus Mons volcano is the biggest volcano in the <em>entire</em> solar system! Imagine a shield volcano the size of Arizona — that's Olympus Mons. It's so big that the entire chain of the Hawaiian Islands could fit inside! If only you could see it person ... (come to Mars).
+                </div>
+                <div class="modal-close material-icons">close</div>
+            </div>
+        </div>
+        <!--Modal info for modal 6-->
+        <div class="modal" id="modal6">
+            <div class="modal-content">
+                <div class="modal-header">
+                    Riding Red
+                </div>
+                <div class="modal-body">
+                    Riding Red is the largest them park in the solar system. Earthlings beware, the rides on Mars have more air time and even a bigger fear factor! If you thought Mars' gravity would hold back the thrill, you thought wrong. Engines are used to make up for the loss of gravity, and they add to the adrenaline rush!
+                </div>
+                <div class="modal-close material-icons">close</div>
+            </div>
+        </div>
+        <!--Contact footer with links to different social media sites + email-->
+        <section class="footer">
+            <h4>Contact Us</h4>
+    
+            <div class="icons">
+            <a href="https://www.facebook.com/" target="_blank"><i class="gg-facebook"></i></a>
+            <p></p>
+            <a href="https://www.instagram.com/" target="_blank"><i class="gg-instagram"></i></a>
+            <p></p>
+            <a href="https://twitter.com/TheMarsSociety" target="_blank"><i class="gg-twitter"></i></a>
+            <p></p>
+            <a href="https://www.google.com/search?q=mars&rlz=1C1SQJL_enUS933US933&oq=mars+&aqs=chrome.0.69i59l4j0i67j69i61l3.1256j0j4&sourceid=chrome&ie=UTF-8" target="_blank"><i class="gg-google"></i></a>
+    
+            </div>
+    
+            <p>Any questions? Reach out to us @ <a href="mailto: marsmission@gmail.com" target="_blank" style="color: rgb(255, 72, 0)">marsmission@gmail.com</a> </p>
+        </section>
+        <script type="text/javascript" src="../js/code2.js"></script>
+        <!--JS for light/mars mode-->
+        <script>
+
+            var icon = document.getElementById("mode-slider");
+
+            icon.onclick = function(){
+                document.body.classList.toggle("dark-theme");
+            
+            }
+
+        </script>
+    </body>
+</html>
