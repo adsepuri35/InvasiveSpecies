@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>The Mars Mission</title>
+    <link rel="stylesheet" href="../css/style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://css.gg/css?=|facebook|instagram|twitter|google" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head> 
+
+<body>
+
+    
+    <section class="header">
+
+        <!-- Transparent nav bar + light/mars mode switch-->
+        <nav>
+            <a href="../html/main2.html" ><img src="../img/mars-real-logo.gif"></a>
+            <a href="../html/main2.html"><img src="../img/mars-logo-text2.png" id="logo-text"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="../html/tourism2.html">TOURISM</a></li>
+                    <li><a href="../html/history2.html">HISTORY</a></li>
+                    <li><a href="../html/geography2.html">GEOGRAPHY</a></li>
+                    <li><a href="../html/travel.html">TRAVEL PACKAGES</a></li>
+                    <li>
+                        <div class="dropdown">
+                        <p id="book-now">BOOK NOW</p>
+                        <div class="dropdown-content">
+                            <a href="insert.html">INSERT</a>
+                            <a href="form.html">SELECT</a>
+                            <a href="form.html">UPDATE</a>
+                            <a href="form.html">DELETE</a>
+                        </div>
+                    </div></li>
+                </ul>
+                
+            </div>
+            <img src="../img/sun.png" id="sun-icon">
+            
+            <input class="toggle" type="checkbox" id="mode-slider"/>
+            
+            <img src="../img/clickmars.png" id="mars-icon">
+        </nav>
+        
+        <!--Opening text for main page-->
+        <div class="text-box">
+            <h1>Experience Mars</h1>
+            <p>Mars is the hottest destination in the solar system!<br> Join the growing community of martian citizens today!
+            </p>
+        </div>
+
+        <!--Bobbing arrow animation-->
+        <div class="arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div id="banner">
+            <canvas id="canvas"></canvas>
+        </div>
+    </section>
+
+    <!--Destinations-->
+    <section class="destination">
+        <h1>Hot Destinations</h1>
+        <p>Here are some cool locations you can explore during your stay</p>
+
+        <div class="row">
+            <!--Olympus Mons-->
+            <div class="destination-col">
+                <img src="../img/main-mons.jpg">
+                <div class="layer">
+                    <h3>OLYMPUS MONS</h3>
+                </div>
+            </div>
+            <!--Largest Canyon in Solar System-->
+            <div class="destination-col">
+                <img src="../img/Mars-canyon.png">
+                <div class="layer">
+                    <h3>VALLES MARINERIS<br> CANYON</h3>
+                </div>
+            </div>
+            <!--Ghost Dunes-->
+            <div class="destination-col">
+                <img src="../img/mars-space-dunes.png">
+                <div class="layer">
+                    <h3>GHOST DUNES</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+    <!--Links to informational pages on website-->
+    <section class="linker">
+        <h1>Learn More</h1>
+        <p>Mars has lots to offer! Click on the images to learn more!</p>
+
+        <div class="row">
+            <div class="linker-col">
+                <a href="../html/tourism2.html"><img src="../img/tourism-main.jfif"></a>
+                <h3>Tourism</h3>
+                <p>The food here at Mars is the best in the solar system! Also, be sure to check out our crazy amusement parks and beautiful blue sunsets!</p>
+            </div>
+            <div class="linker-col">
+                <a href="../html/history2.html"><img src="../img/history-main.png"></a>
+                <h3>History</h3>
+                <p>It has taken tons of time and effort to transform Mars into the utopia it is. Our climate, geology, and orbit is nothing like it is on Earth.</p>
+            </div>
+            <div class="linker-col">
+                <a href="../html/geography2.html"><img src="../img/geography-main-2.png"></a>
+                <h3>Geography</h3>
+                <p>Mars is home to 5 major territories and other settlements, each one with its own unique features.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Reviews of Mars by Citizens-->
+    <section class="testimonials">
+        <h1>What Our Citizens Say</h1>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="../img/3po.jpg" class="pfp">
+                <div>
+                    <p>Going to Mars was the best decision I've ever made. There is so much to do here! I never want to go back to Earth again!</p>
+                    <h3>C-3PO</h3>
+                    <img src="../img/fivestar.png" id="stars">
+                </div>
+            </div>
+            <div class="vl"></div>
+            <div class="testimonial-col">
+                <img src="../img/clanker.jpg" class="pfp">
+                <div>
+                    <p>At first, I was apprehensive about moving to an entirely different planet. Now, I'm really happy with my decision. I'm able to live a happy and healthy life with my family.</p>
+                    <h3>B1 Battle Droid</h3>
+                    <img src="../img/fivestar.png" id="stars">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Button linking to travel packages page-->
+    <section class="cta">
+        <h1>Experience what Mars has to offer</h1>
+        <a href="../html/travel.html" class="hero-btn">See Travel Packages</a>
+    </section>
+    
+    <!--Contact footer with links to different social media sites + email-->
+    <section class="footer">
+        <h4>Contact Us</h4>
+
+        <div class="icons">
+        <a href="https://www.facebook.com/" target="_blank"><i class="gg-facebook"></i></a>
+        <p></p>
+        <a href="https://www.instagram.com/" target="_blank"><i class="gg-instagram"></i></a>
+        <p></p>
+        <a href="https://twitter.com/TheMarsSociety" target="_blank"><i class="gg-twitter"></i></a>
+        <p></p>
+        <a href="https://www.google.com/search?q=mars&rlz=1C1SQJL_enUS933US933&oq=mars+&aqs=chrome.0.69i59l4j0i67j69i61l3.1256j0j4&sourceid=chrome&ie=UTF-8" target="_blank"><i class="gg-google"></i></a>
+
+        </div>
+
+        <p>Any questions? Reach out to us @ <a href="mailto: marsmission@gmail.com" target="_blank" style="color: rgb(255, 72, 0)">marsmission@gmail.com</a> </p>
+    </section>
+
+    <script type="text/javascript" src="../js/code2.js"></script>
+
+    <!--JS for light/mars mode-->
+    <script>
+
+        var icon = document.getElementById("mode-slider");
+
+        icon.onclick = function(){
+            document.body.classList.toggle("dark-theme");
+            
+        }
+
+    </script>
+
+</body>
+</html>
