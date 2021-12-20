@@ -225,7 +225,7 @@ nav img {
 
 /* Front Page Title */
 .text-box {
-    width: 90%;
+    width: 50%;
     color: #fff;
     position: absolute;
     top: 50%;
@@ -236,9 +236,10 @@ nav img {
 .text-box h1 {
     font-size: 69px;
     color: white;
+    line-height: 80px;
 }
 .text-box p {
-    margin: 10px 0 40px;
+    margin: 10px 0 50px;
     font-size: 19px;
     color: white;
 }
@@ -337,7 +338,7 @@ h3 {
     transition: 0.5s;
 }
 .layer:hover {
-    background:rgba(238, 89, 3, 0.7);
+    background:rgba(255, 255, 255, 0.7);
 }
 .layer h3 {
     width: 100%;
