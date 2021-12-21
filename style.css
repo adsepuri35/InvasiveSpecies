@@ -580,13 +580,14 @@ h3 {
     text-align: left;
     color: var(--secondary-color);
     list-style-type: none;
+    font-size: 20px;
 }
 .watmap {
     padding-top: 50px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 55%;
 }
 /* history 1st half of the section */
 .history-header {
