@@ -26,7 +26,7 @@ body{
 .header {
     min-height: 100vh;
     width:100%;
-    background-image: url(../img/imageedit_3_4432434666.jpg);
+    background-image: url(img/imageedit_3_4432434666.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -447,7 +447,7 @@ h3 {
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url(../img/5ef2cf36b0982856b6c38d7f_Invasive-Species-Banner.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url(img/5ef2cf36b0982856b6c38d7f_Invasive-Species-Banner.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -493,7 +493,7 @@ h3 {
 
 /* travel packages */
 .trav-header {
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)),url(../img/AdobeStock_22364410.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)),url(img/AdobeStock_22364410.jpeg);
     min-height: 70vh;
     width:100%;
     background-position: center;
@@ -535,7 +535,7 @@ h3 {
 
 /*Geography page */
 .geo-header {
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url(../img/AdobeStock_296962770.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url(img/AdobeStock_296962770.jpeg);
     min-height: 70vh;
     width:100%;
     background-position: center;
@@ -590,7 +590,7 @@ h3 {
 }
 /* history 1st half of the section */
 .history-header {
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),url(../img/mars-cool-background-3.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),url(img/mars-cool-background-3.jpeg);
     min-height: 70vh;
     width:100%;
     background-position: center;
@@ -649,7 +649,7 @@ h3 {
 /* container for the circles */
 .hidden{
     position: absolute;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/mars-cool-satellite.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/mars-cool-satellite.jpeg);
     background-size: cover;
     border-radius: 55px;
     background-repeat: no-repeat;
@@ -1298,7 +1298,7 @@ h3 {
 }
 /*Added background image to the header and positioned it*/
 .tourism-header {
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url(../img/Lantern1.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url(img/Lantern1.jpeg);
     min-height: 70vh;
     width:100%;
     background-position: center;
@@ -1470,7 +1470,7 @@ input[type=radio] {
     background: fff;
     border-radius: 5px;
     position: relative;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url(../img/form-bg-2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url(img/form-bg-2.jpg);
     background-size: cover;
     background-position: center;
     box-shadow: 0 1px 2px rgba(0,0,0,0.8);
@@ -1556,7 +1556,7 @@ input[type=submit]:hover{
 .dropdown:hover .dropdown-content { display: block;}
 
 .insert-header {
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)),url(../img/ship.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)),url(img/ship.jpg);
     min-height: 70vh;
     width:100%;
     background-position: center;
