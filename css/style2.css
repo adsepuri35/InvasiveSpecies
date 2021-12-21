@@ -26,7 +26,7 @@ body{
 .header {
     min-height: 100vh;
     width:100%;
-    background-image: url(../img/AdobeStock_127854858.jpeg);
+    background-image: url(../img/imageedit_3_4432434666.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -1298,7 +1298,7 @@ h3 {
 }
 /*Added background image to the header and positioned it*/
 .tourism-header {
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url(../img/AdobeStock_373707019.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url(../img/Lantern1.jpeg);
     min-height: 70vh;
     width:100%;
     background-position: center;
