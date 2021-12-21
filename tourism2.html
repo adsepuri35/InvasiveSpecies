@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Invasive Species of the US</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://css.gg/css?=|facebook|instagram|twitter|google" rel="stylesheet">
+        <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    </head> 
+    <body>
+        <section class="tourism-header">
+            <!-- Transparent nav bar + light/mars mode switch-->
+            <nav>
+                <a href="index.html"><img src="img/newLogo.png" id="logo-text"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="html/tourism2.html">SPOTTED LANTERNFLIES</a></li>
+                        <li><a href="html/travel.html">LIONFISH</a></li>
+                        <li><a href="html/geography2.html">PURPLE LOOSESTRIFE</a></li>
+                    </ul>
+                    
+                </div>
+    
+                <img src="img/cartoonplant.png" id="plant-icon">
+                
+                <input class="toggle" type="checkbox" id="mode-slider"/>
+                
+                <img src="img/clown-fish.png" id="fish-icon">
+    
+            </nav>
+            <!--Opening text for main page-->
+            <div class="text-box">
+                <h1>Spotted Lanternflies</h1>
+            </div>
+            <!--Bobbing arrow animation-->
+            <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!--Banner for stars on the main page (present here because it serves as a workaround to a modal bug)-->
+            <div id="banner">
+                <canvas id="canvas"></canvas>
+              </div>
+        </section>
+        <!--Information about food chains-->
+        <section class="food-chains">
+            <h1>Impact</h1>
+            <p>Lanternflies pose a serious threat to the plant life in the Northeast United States.</p>
+            <!--Carousel for food chain restaurants-->
+            <div class="container">
+                <input type="radio" name="slider" id="item-1">
+                <input type="radio" name="slider" id="item-2">
+                <input type="radio" name="slider" id="item-3">
+                <div class="cards">
+                    <label class="card" for="item-1" id="food-1">
+                    <img src="img/Lanternfly.jpg" alt="Pathy's Paneer Plates" class="modal-open" data-modal="modal1">
+                    </label>
+                    <label class="card" for="item-2" id="food-2">
+                    <img src="img/merlin_160979136_1df51e8d-e0fa-43c1-9750-71fffbe90100-superJumbo.jpg" alt="Gaka's Guac" class="modal-open" data-modal="modal2">
+                    </label>
+                    <label class="card" for="item-3" id="food-3">
+                    <img src="img/spotted-lanternfly-egg-blog-header.jpg" alt="Sepuri's Puris" class="modal-open" data-modal="modal3">
+                    </label>
+                </div>
+            </div>
+        </section>
+        <!--Information about attractions-->
+        <section class="attractions">
+            <h1>Life Cycle</h1>
+            <p>Lanternflies have a complex life cycle that makes it more difficult for tree-huggers to deal with.</p>
+            <!--Carousel for attractions-->
+            <div class="container">
+                <input type="radio" name="slider" id="item-4">
+                <input type="radio" name="slider" id="item-5">
+                <input type="radio" name="slider" id="item-6">
+                <div class="cards">
+                    <label class="card" for="item-4" id="attractions-4">
+                    <img src="img/AdobeStock_338507761.jpeg" alt="Mars Moons" class="modal-open" data-modal="modal4">
+                    </label>
+                    <label class="card" for="item-5" id="attractions-5">
+                    <img src="img/AdobeStock_357888918.jpeg" alt="Olympus Mons" class="modal-open" data-modal="modal5">
+                    </label>
+                    <label class="card" for="item-6" id="attractions-6">
+                    <img src="img/nymph-spottled-lantern-fly.jpg" alt="Riding Red" class="modal-open" data-modal="modal6">
+                    </label>
+                </div>
+            </div>
+        </section>
+        <!--Modal info for modal 1-->
+        <div class="modal" id="modal1">
+            <div class="modal-content">
+                <div class="modal-header">
+                    What do Lanternflies do?
+                </div>
+                <div class="modal-body">
+                    The spotted lanternfly causes serious damage including oozing sap, wilting, leaf curling and dieback in trees, vines, crops and many other types of plants. When spotted lanternflies feed, they excrete a sugary substance, called honeydew, that encourages the growth of black sooty mold, which damages plants. Residents report hundreds of these bad bugs that affect their quality of life and ability to enjoy the outdoors during the spring and summer months. 
+                </div>
+                <div class="modal-close material-icons">close</div>
+            </div>
+        </div>
+        <!--Modal info for modal 2-->
+        <div class="modal" id="modal2">
+            <div class="modal-content">
+                <div class="modal-header">
+                    Where are they from?
+                </div>
+                <div class="modal-body">
+                    The spotted lanternfly is considered native to China, India, and Vietnam. SLF was first found in North America in 2014, in Pennsylvania. It is believed to have arrived on shipments of stone from China. Since then, SLF has been detected in 11 eastern states (Connecticut, Delaware, Massachusetts, Maryland, North Carolina, New Jersey, New York, Pennsylvania, Virginia and West Virginia). 
+                </div>
+                <div class="modal-close material-icons">close</div>
+            </div>
+        </div>
+        <!--Modal info for modal 3-->
+        <div class="modal" id="modal3">
+            <div class="modal-content">
+                <div class="modal-header">
+                    What is the Solution?
+                </div>
+                <div class="modal-body">
+                    Using drones and special egg detection software can help identify locations where lanternfly eggs are prevalent. After these locations have been identified, people could go to these locations and scrape off the eggs. This would decrease the overall population of lanternflies.
+                </div>
+                <div class="modal-close material-icons">close</div>
+            </div>
+        </div>
+        <!--Modal info for modal 4-->
+        <div class="modal" id="modal4">
+            <div class="modal-content">
+                <div class="modal-header">
+                    The Nymph Stages (May-September)
+                </div>
+                <div class="modal-body">
+                    The second main stage for the Spotted Lanternfly is the nymph or instar stage. This is the stage that goes from when the eggs hatch until they become an adult. During this stage, it is best to control the Spotted Lanternfly by use of banding.
+                </div>
+                <div class="modal-close material-icons">close</div>
+            </div>
+        </div>
+        <!--Modal info for modal 5-->
+        <div class="modal" id="modal5">
+            <div class="modal-content">
+                <div class="modal-header">
+                    The Adult Stages (July-December)
+                </div>
+                <div class="modal-body">
+                    The final and the most readily recognizable and also the most destructive stage is the adult stage. During this stage, they are best controlled by whatever means possible. Whether it is mechanical means (swatting them) or through the use of sprays.
+                </div>
+                <div class="modal-close material-icons">close</div>
+            </div>
+        </div>
+        <!--Modal info for modal 6-->
+        <div class="modal" id="modal6">
+            <div class="modal-content">
+                <div class="modal-header">
+                    The Egg Stage (October-June)The Adult Stages (July-December)
+                </div>
+                <div class="modal-body">
+                    This stage is perhaps one of the most important to control the Spotted Lanternflies. In this stage it is much easier to kill and control the eggs than to kill the 50 odd insects that hatch from it. Eggs should be scrapped with an old credit card and placed in alcohol to kill.
+                </div>
+                <div class="modal-close material-icons">close</div>
+            </div>
+        </div>
+        <!--Contact footer with links to different social media sites + email-->
+        <section class="footer">
+            <h4>Contact Us</h4>
+    
+            <div class="icons">
+            <a href="https://www.facebook.com/" target="_blank"><i class="gg-facebook"></i></a>
+            <p></p>
+            <a href="https://www.instagram.com/" target="_blank"><i class="gg-instagram"></i></a>
+            <p></p>
+            <a href="https://twitter.com/World_Wildlife" target="_blank"><i class="gg-twitter"></i></a>
+            <p></p>
+            <a href="https://www.google.com/search?q=wildlife+conservation+society&rlz=1C1SQJL_enUS933US933&sxsrf=AOaemvIRhdm_N1f1i1FtyVZxXuKik3eQ-w%3A1639928933113&ei=ZVS_YeeRBsWpptQPzc6eYA&gs_ssp=eJzj4tTP1TcwLy7LyFVgNGB0YPCSLc_MScnJTEtVSM7PK04tKkssyczPUyjOT85MLakEAEudD6g&oq=wildlife+&gs_lcp=Cgdnd3Mtd2l6EAEYATIICAAQgAQQsQMyDgguEIAEELEDEMcBENEDMggIABCABBDJAzIFCAAQsQMyBQgAEIAEMggIABCABBCxAzIICAAQgAQQsQMyCAgAEIAEELEDMgUIABCABDIICAAQgAQQsQM6BwgjEOoCECc6BAgjECc6CwgAEIAEELEDEIMBOhEILhCABBCxAxCDARDHARCjAjoICC4QsQMQgwE6BggAEAoQQzoKCC4QxwEQ0QMQQzoHCAAQsQMQQzoECAAQQzoLCC4QgAQQsQMQgwE6BQgAEJECOgUILhCABDoECC4QQzoHCC4QsQMQQzoICAAQsQMQgwE6EQguEIAEELEDEIMBEMcBEK8BOggILhCABBCxA0oECEEYAEoECEYYAFCICFjFH2DwKGgDcAJ4AIABowGIAdwIkgEDNi41mAEAoAEBsAEKwAEB&sclient=gws-wiz" target="_blank"><i class="gg-google"></i></a>
+    
+            </div>
+    
+            <p>Any questions? Reach out to us @ <a href="mailto: americanwildife@gmail.com" target="_blank" style="color: black">americanwildlife@gmail.com</a> </p>
+        </section>
+        <script type="text/javascript" src="js/code2.js"></script>
+        <!--JS for light/mars mode-->
+        <script>
+
+            var icon = document.getElementById("mode-slider");
+
+            icon.onclick = function(){
+                document.body.classList.toggle("dark-theme");
+            
+            }
+
+        </script>
+    </body>
+</html>
