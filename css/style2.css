@@ -493,7 +493,7 @@ h3 {
 
 /* travel packages */
 .trav-header {
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)),url(../img/ship.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)),url(../img/AdobeStock_22364410.jpeg);
     min-height: 70vh;
     width:100%;
     background-position: center;
@@ -535,7 +535,7 @@ h3 {
 
 /*Geography page */
 .geo-header {
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url(../img/geobg2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url(../img/AdobeStock_296962770.jpeg);
     min-height: 70vh;
     width:100%;
     background-position: center;
