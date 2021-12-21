@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Invasive Species of the US</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://css.gg/css?=|facebook|instagram|twitter|google" rel="stylesheet">
+    </head> 
+    <body>
+        <section class="trav-header">
+
+            <!--nav bar-->
+            <nav>
+                <a href="index.html"><img src="img/newLogo.png" id="logo-text"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="tourism2.html">SPOTTED LANTERNFLIES</a></li>
+                        <li><a href="travel.html">LIONFISH</a></li>
+                        <li><a href="geography2.html">PURPLE LOOSESTRIFE</a></li>
+                    </ul>
+                    
+                </div>
+    
+                <img src="img/cartoonplant.png" id="plant-icon">
+                
+                <input class="toggle" type="checkbox" id="mode-slider"/>
+                
+                <img src="img/clown-fish.png" id="fish-icon">
+    
+            </nav>
+            
+            <!--Page Title + Description-->/
+            <div class="text-box">
+                <h1>Lionfish</h1>
+                <p>Lionfish threaten native fish and reefs in U.S. Atlantic coastal waters.</p>
+            </div>
+
+            <!--Bobbing Arrow Animation-->
+            <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+          
+            </div>
+
+        </section>
+
+        <!--Travel packages boxes-->
+        <section class="trav-course">
+    
+            <div class="trav-row">
+                <div class="trav-course-col">
+                    <h3>The Problem</h3>
+                    <p></p>
+                    <ul>
+                        <li>Threaten the well-being of coral-reefs and other marine ecosystems.</li>
+                        <li>Harm commercially and recreationally important fishes that depend on them.</li>
+                        <li>Inhabit reefs, wrecks, and other habitat types in the warm marine waters of the greater Atlantic.</li>
+                    </ul>
+                    <p></p>
+                </div>
+                <div class="trav-course-col">
+                    <h3>The Causes</h3>
+                    <p></p>
+                    <ul>
+                        <li>Lionfish are native to coral reefs in the tropical waters of the South Pacific and Indian Oceans.</li>
+                        <li>Likely introduced when aquarium owners emptied unwanted pet lionfish into nearby coastal waters.</li>
+                        <li>The lionfish spread very rapidly since they have no natural predators in US waters.</li>
+                    </ul>
+                    <p></p>
+                </div>
+                <div class="trav-course-col">
+                    <h3>The Solution</h3>
+                    <p></p>
+                    <ul>
+                        <li>Hunting them in large numbers.</li>
+                        <li>They can be eaten but only after their poisonous parts are removed.</li>
+                        <li>Training sharks to eat them! Yes, this is real.</li>
+                        <li>Ban Lionfish imports.</li>
+                        <li>Have divers report lionfish sightings.</li>
+                    </ul>
+                    <p></p>
+                </div>
+                
+            </div>
+        </section>
+        <!--Contact Links + Email-->
+        <section class="footer">
+            <h4>Contact Us</h4>
+    
+            <div class="icons">
+            <a href="https://www.facebook.com/" target="_blank"><i class="gg-facebook"></i></a>
+            <p></p>
+            <a href="https://www.instagram.com/" target="_blank"><i class="gg-instagram"></i></a>
+            <p></p>
+            <a href="https://twitter.com/World_Wildlife" target="_blank"><i class="gg-twitter"></i></a>
+            <p></p>
+            <a href="https://www.google.com/search?q=wildlife+conservation+society&rlz=1C1SQJL_enUS933US933&sxsrf=AOaemvIRhdm_N1f1i1FtyVZxXuKik3eQ-w%3A1639928933113&ei=ZVS_YeeRBsWpptQPzc6eYA&gs_ssp=eJzj4tTP1TcwLy7LyFVgNGB0YPCSLc_MScnJTEtVSM7PK04tKkssyczPUyjOT85MLakEAEudD6g&oq=wildlife+&gs_lcp=Cgdnd3Mtd2l6EAEYATIICAAQgAQQsQMyDgguEIAEELEDEMcBENEDMggIABCABBDJAzIFCAAQsQMyBQgAEIAEMggIABCABBCxAzIICAAQgAQQsQMyCAgAEIAEELEDMgUIABCABDIICAAQgAQQsQM6BwgjEOoCECc6BAgjECc6CwgAEIAEELEDEIMBOhEILhCABBCxAxCDARDHARCjAjoICC4QsQMQgwE6BggAEAoQQzoKCC4QxwEQ0QMQQzoHCAAQsQMQQzoECAAQQzoLCC4QgAQQsQMQgwE6BQgAEJECOgUILhCABDoECC4QQzoHCC4QsQMQQzoICAAQsQMQgwE6EQguEIAEELEDEIMBEMcBEK8BOggILhCABBCxA0oECEEYAEoECEYYAFCICFjFH2DwKGgDcAJ4AIABowGIAdwIkgEDNi41mAEAoAEBsAEKwAEB&sclient=gws-wiz" target="_blank"><i class="gg-google"></i></a>
+    
+            </div>
+    
+            <p>Any questions? Reach out to us @ <a href="mailto: americanwildife@gmail.com" target="_blank" style="color: black">americanwildlife@gmail.com</a> </p>
+        </section>
+
+        <script type="text/javascript" src="js/code2.js"></script>
+
+        <!--JS for light/mars mode-->
+        <script>
+
+            var icon = document.getElementById("mode-slider");
+    
+            icon.onclick = function(){
+                document.body.classList.toggle("dark-theme");
+                
+            }
+    
+        </script>
+    </body>
+    
+</html>
